@@ -1,2 +1,2 @@
 # pd
-Peterson-Daly Farms Website using ReactJs
+Peterson-Daly Farms Website using ReactJS
