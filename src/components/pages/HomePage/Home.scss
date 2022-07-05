@@ -1,0 +1,87 @@
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 855px;
+  max-height: 855px;
+  position: relative;
+  margin: auto;
+}
+p {
+    padding: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-style: normal;
+}
+footer {
+    background-color: var(--black2);
+    align-items: center;
+    padding:0px;
+    justify-content: center;
+    position: relative;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.link__item {
+    color: white;
+    text-decoration: none;
+}
+#email {
+    color: white;
+    text-decoration: none;
+}
+#email:hover {
+    color:var(--blue-grey);
+    transition: all 0.3s ease;
+}
+#phone {
+    color:white;
+    text-decoration: none;
+}
+#phone:hover {
+    color: var(--blue-grey);
+    transition: all 0.3s ease;
+}
+.address {
+    color: white;
+    text-align: center;
+}
+.credits {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#drew {
+    text-decoration: none;
+    color: white;
+}
+#drew:hover {
+    color:var(--blue-grey);
+    transition: all 0.3s ease;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

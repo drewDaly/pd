@@ -1,0 +1,36 @@
+@import "./../styles/variables.scss";
+footer {
+    background-color: $black2;
+    align-items: center;
+    padding:0px;
+    justify-content: center;
+    position: relative;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.link__item {
+    color: white;
+    text-decoration: none;
+}
+.credits {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#drew {
+    text-decoration: none;
+    color: white;
+}
+#drew:hover {
+    color:$blue-grey;
+    transition: all 0.3s ease;
+}
