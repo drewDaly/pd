@@ -1,0 +1,57 @@
+@import "./../../../styles/variables.scss";
+
+.about-container {
+    padding: 100px;
+    text-align: center;
+    color: $light;
+    background-image: url("./../../../images/combine.png"), radial-gradient(ellipse at center, #aa0c10
+    , $black2 75%);
+    background-position:center;
+    background-blend-mode: overlay;
+    background-size:cover;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:40px;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-style: oblique;
+}
+.beef, .grain {
+    font-style: oblique;
+}
+
+.about__desc{
+    padding: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.people-container {
+    text-align: center;
+    justify-content: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 150px;
+    background-image: radial-gradient(ellipse at center, $background, $black2 75%);
+}
+.david__head {
+    padding-top: 80px;
+    padding-bottom:80px;
+    background-image: url("./../../../images/dave\ carrie.jpg");
+    background-position:center;
+    background-size:cover;
+    color: $black;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    text-align: left;
+    text-indent: 80px;
+    font-style: oblique;
+}

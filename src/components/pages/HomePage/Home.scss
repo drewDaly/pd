@@ -14,7 +14,7 @@ p {
     font-style: normal;
 }
 footer {
-    background-color: var(--black2);
+    background-color: $black2;
     align-items: center;
     padding:0px;
     justify-content: center;
@@ -40,7 +40,7 @@ footer {
     text-decoration: none;
 }
 #email:hover {
-    color:var(--blue-grey);
+    color:$blue-grey;
     transition: all 0.3s ease;
 }
 #phone {
@@ -48,7 +48,7 @@ footer {
     text-decoration: none;
 }
 #phone:hover {
-    color: var(--blue-grey);
+    color: $blue-grey;
     transition: all 0.3s ease;
 }
 .address {
@@ -65,7 +65,7 @@ footer {
     color: white;
 }
 #drew:hover {
-    color:var(--blue-grey);
+    color:$blue-grey;
     transition: all 0.3s ease;
 }
 /* Fading animation */
