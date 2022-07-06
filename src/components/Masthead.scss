@@ -1,0 +1,19 @@
+@import "./../styles/variables.scss";
+.masthead {
+    display: flex;
+    background-image: url("./../images/entire farm.png");
+    color: white;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.title {
+    color: $black2;
+}
+.subtitle {
+    color: $black2;
+}
