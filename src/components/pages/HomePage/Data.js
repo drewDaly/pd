@@ -1,25 +1,16 @@
-const images = [
-    'family corn.jpg',
-    'IMG_1262.jpg',
-    'emma calf.jpg',
-    'IMG_2519.jpg',
-    'snow overhead 2.png',
-    'white cow.JPG',
-    'entire farm.png',
-    'snow overhead.png',
-    'dave carrie 2.jpg',
-    'beandrill.png',
-    'fam walk.jpg',
-    'harvest.png',
-    'hay mower.png',
-    'calf.png',
-    'combine 2.png',
-    'holly calf (2).jpg',
-    'combine.png',
-    'cowcalf.png',
-    'dave carrie.jpg',
-    'November 2011 001 (1).jpg',
-    'baler.png',
-    'Header.png',
-    'IMG_2504.jpg'
-];
+import fam from "./../../../images/family corn.jpg"
+import boys from "./../../../images/IMG_1262.jpg"
+export const homeObjOne = {
+    lightBg:true,
+    caption: "Est. 1997",
+    imgStart: 'back',
+    img: fam,
+    alt: 'Family'
+}
+export const homeObjTwo = {
+    caption: "Eat Beef", 
+    imgStart:'start',
+    img: boys,
+    alt: "dave and kent",
+    lightBg: false
+}

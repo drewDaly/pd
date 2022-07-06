@@ -1,0 +1,25 @@
+@import "./../styles/variables.scss";
+.home__hero-section {
+    background-color: $light_blue;
+    color: $black2;
+}
+.home__hero-section-dark {
+    background-color: $blue-grey;
+    color:white;
+}
+.home__hero-img {
+    max-width: 900px;
+    display: block;
+}
+
+.home__hero-row{
+    align-items: center;
+}
+
+.home__hero-text-wrapper {
+    text-align: center;
+}
+.col {
+    min-width: 400px;
+    align-items: center;
+}

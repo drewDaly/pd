@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import "./Header.scss";
+import logo from "./../images/peterson daly lc (3).jpg"
 
 const Header = () => {
   return (
     <header className='navbar'>
         <div className='navbar__container'>
-            <Link to='/Home' id='navbar__logo'><img src="images/peterson daly lc (3).jpg" alt='logo' id='logo'></img>
+            <Link to='/Home' id='navbar__logo'><img src={logo} alt='logo' id='logo'></img>
           </Link>
             <div className='navbar__toggle' id='mobile-menu'>
                 <span className='bar'></span>
