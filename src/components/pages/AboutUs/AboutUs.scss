@@ -55,3 +55,73 @@
     text-indent: 80px;
     font-style: oblique;
 }
+.daniel__head {
+    padding-top: 80px;
+    padding-bottom:80px;
+    background-image: url("./../../../images/danny\ mountain.jpg");
+    background-size:cover;
+    background-position-y: -60px;
+    color: $black;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    text-align: left;
+    text-indent: 80px;
+    font-style: oblique;
+}
+.david__para {
+        background-image: url("./../../../images/sprayer.png"), radial-gradient(ellipse at center, #aa0c10, $black2);
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-blend-mode:overlay;
+        background-position:center;
+        background-size:cover;
+        color: $light;
+        height:auto;
+}
+.daniel__para {
+    background-image: url("./../../../images/skidloader.png"), radial-gradient(ellipse at center, #aa0c10, $black2);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-blend-mode: overlay;
+    background-position:center;
+    background-size:cover;
+    color: $light;
+}
+p {
+    padding:20px;
+    word-spacing:2px;
+    line-height: 25px;
+    font-style: normal;
+}
+@media screen and (max-width:1240px) {
+    .about-container {
+        padding:10px;
+    }
+    .people-container {
+        grid-template-columns: auto;
+        column-gap: 10px;
+    }
+    .daniel__para {
+        order: 5;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .david__para {
+        order:2;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .david__contact {
+        order:3;
+    }
+    .daniel__head {
+        order:4;
+        background-position: 0 50%;
+    }
+    .daniel__contact {
+        order:6;
+    }
+    .david__head {
+        background-position: 0 30%;
+    }
+}

@@ -14,3 +14,7 @@ export const homeObjTwo = {
     alt: "dave and kent",
     lightBg: false
 }
+export const homeObjMast = {
+    title: "Peterson-Daly Farms LLC",
+    subtitle:"A Family Operated Beef and Grain Farm"
+}

@@ -1,0 +1,69 @@
+@import "./../../../styles/variables.scss";
+
+#trust-section {
+    text-align: center;
+    align-items: center;
+    color: $light;
+    justify-content: center;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 75px;
+    column-gap: 75px;
+    background-image: radial-gradient(ellipse at center, $background, $black2 75%);
+}
+.performance-beef {
+    background-image: url("./../../../images/pb_back.png"), radial-gradient(ellipse at center, $dark_red, $black2);
+}
+#pb_logo:hover {
+    content:url("./../../../images/pb_alt.png");
+    transition: all 0.3s ease;
+}
+.pearl-city {
+    background-image: url("./../../../images/pce_back.png"), radial-gradient(ellipse at center, $dark_red, $black2);
+}
+#pce_logo:hover {
+    content:url("./../../../images/pce_alt.png");
+    transition: all 0.3s ease;
+}
+.burrus {
+    background-image: url("./../../../images/burrus_back.png"), radial-gradient(ellipse at center, $dark_red, $black2);
+}
+#burrus_logo:hover {
+    content:url("./../../../images/burrus_alt.png");
+    transition: all 0.3s ease;
+}
+.dekalb {
+    background-image: url("./../../../images/feed wagon.png"), radial-gradient(ellipse at center, $dark_red, $black2);
+}
+#dekalb_logo:hover {
+    content: url("./../../../images/dekalb_alt.png");
+    transition: all 0.3s ease;
+}
+h3 {
+    color: $light;
+    font-style: oblique;
+}
+#pb__logo, #pce__logo, #burrus__logo, #dekalb__logo {
+    padding:20px
+}
+#pb_logo, #pce_logo, #burrus_logo, #dekalb_logo {
+    width:100px;
+}
+.performance-beef, .pearl-city, .burrus, .dekalb {
+    max-width: 400px;
+    min-height:200px;
+    border-radius: 30px;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    padding:20px;
+} 
+@media screen and (max-width: 1240px) {
+    #trust-section {
+        grid-template-columns:auto;
+    }
+}
