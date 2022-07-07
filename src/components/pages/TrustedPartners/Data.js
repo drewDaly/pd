@@ -18,3 +18,6 @@ export const DekalbData = {
     dekalb: dekalb,
     dekalbPara: "Dekalb Feeds monitors our rations; what we feed our cattle determines how well they gain."
 }
+export const TrustMast = {
+    title: "Trusted Partners"
+}

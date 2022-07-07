@@ -1,9 +1,11 @@
 import React from 'react'
 import "./TrustedPartners.scss"
-import { PbData, PceData, BurrusData, DekalbData } from './Data';
+import { PbData, PceData, BurrusData, DekalbData, TrustMast } from './Data';
+import Masthead from '../../Masthead';
 const TrustedPartners = () => {
   return (
     <>
+    <Masthead {...TrustMast} />
     <div class="trust-container" id="trust-section">
         <div class="performance-beef">
             <div class="logo" id="pb__logo">

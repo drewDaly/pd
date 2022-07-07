@@ -8,5 +8,6 @@ export const AboutData = {
 }
 export const AboutMast = {
     title: "About Us",
-    subtitle: "A Family In Farming Since 1918"
+    subtitle: "A Family In Farming Since 1918",
+    dash: "---"
 }
