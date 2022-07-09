@@ -1,3 +1,4 @@
+@import "./../../../styles/variables.scss";
 img {vertical-align: middle;}
 
 .mast-wrap {
@@ -15,6 +16,36 @@ img {vertical-align: middle;}
     background-position: 0%;
     height: 0px;
 }
+.gallery__header {
+    padding-bottom: 75px;
+    font-family: 'Montserrat', 'ExtraLight 200';
+    font-weight: 200;
+    font-style: oblique;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.buffer {
+    padding: 150px;
+    background-image: linear-gradient( $light 0% , $dark2 40%);
+}
+.gallery {
+    text-align: center;
+    background-color: $dark2;
+    color: $light;
+}
+.slideshow-container {
+    max-width: 600px;
+}
+.show-header {
+    padding-bottom: 30px;
+}
 @media screen and (max-width: 960px) {
     .content{top: 75px;}
+    .gallery-container {
+        grid-template-columns: auto;
+    }
 }

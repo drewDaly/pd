@@ -1,9 +1,27 @@
+// HERO SECTION
 import fam from "./../../../images/family corn.jpg"
 import boys from "./../../../images/IMG_1262.jpg"
+// BEEF GALLERY
+import calf from "./../../../images/calf.png"
+import cowcalf from "./../../../images/cowcalf.png"
+import emmacalf from "./../../../images/emma calf.jpg"
+import hollycalf from "./../../../images/holly calf (2).jpg"
+import drewcalf from "./../../../images/November 2011 001 (1).jpg"
+import whitecow from "./../../../images/white cow.JPG"
+// GRAIN GALLERY
+import stuff from "./../../../images/IMG_2504.jpg"
+import stuff2 from "./../../../images/IMG_2519.jpg"
+import fill from "./../../../images/fill.jpg"
+import cab from "./../../../images/cab.jpg"
+import harvest from "./../../../images/harvest.jpg"
+import loading from "./../../../images/loading.jpg"
+import sprayer from "./../../../images/sprayer.jpg"
+import sprayerSky from "./../../../images/sprayerSky.jpg"
+import waterTank from "./../../../images/waterTank.jpg"
 export const homeObjOne = {
     lightBg:false,
-    title: "A Family Business",
-    para: "",
+    title: "A Family Affair",
+    para: "Peterson-Daly Farms is proud to be a true family farm. At Peterson-Daly Farms, everyone chips in to work cattle, stack hay, and everything in between. Off the farm, the family is proud to Agvocate, as every family member is either a former or an active members of 4-H and FFA. Daniel and Drew currently co-own their own baling business, while Holly and Emma are hyperactive in the Seward Determination 4-H Club and the Pecatonica FFA chapter, respectively.",
     imgStart: 'back',
     img: fam,
     alt: 'Family'
@@ -21,3 +39,9 @@ export const homeObjMast = {
     subtitle:"A Family Operated Beef and Grain Farm",
     dash: "— Pecatonica, IL | Est. 1997 —"
 }
+export const beefImages = [
+        calf, cowcalf, hollycalf,emmacalf,drewcalf,whitecow
+];
+export const grainImages = [
+    harvest, sprayerSky, fill, waterTank, sprayer, loading, cab, stuff, stuff2, 
+];
