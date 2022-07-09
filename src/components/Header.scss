@@ -1,10 +1,7 @@
 @import "../styles/variables.scss";
  
-.nav {
-    background-image:$black;
-}
 .navbar {
-    height: 80px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,61 +9,74 @@
     position: sticky;
     top:0;
     z-index: 999;
-}
 .navbar__container {
     display:flex;
-    background-color: $black;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $dark;
     width:100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 50px;
 }
 #navbar__logo {
-    background-size: 100%;
     display:flex;
-    cursor:pointer;
-    padding-left:25px;
-    background-color: $black;
+    background-color: $dark;
+    max-width: 250px;
+}
+#logo {
+    width: 100%;
 }
 .navbar__menu {
     display:flex;
     align-items: center;
     list-style: none;
     text-align: center;
-    background-color: $black;
+    background-color: $dark;
 }
 .navbar__item{
     height:80px;
 }
 .navbar__links{
-    color: #fff;
+    color: $light;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
     text-decoration: none;
-    padding: 0 2rem;
-    height: 100%;
-    background-color: $black;
+    height:100%;
+    background-color: $dark;
+}
 }
 .navbar__links:hover {
-    color: $blue-grey;
+    color: $primary_light;
     transition: all 0.3s ease;
 }
-@media screen and (max-width: 960px) {
+.navbar2 {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+    z-index: 999;
     .navbar__container{
         display:flex;
         justify-content: space-between;
         height:80px;
+        background-color: $dark;
         z-index:1;
         width: 100%;
-        max-width: 1300px;
+        text-align: center;
+        margin: 0 auto;
         padding:0;
     }
     .navbar__menu {
         display: grid;
         grid-template-columns: auto;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        background-color: $dark;
         margin: 0;
         width: 100%;
         position: absolute;
@@ -76,52 +86,58 @@
         height: 50vh;
         z-index: -1;
     }
+    .navbar__toggle {
+        color: $light;
+        
+    }
+    #navbar__logo {
+        max-height: 80px;
+        display:flex;
+        background-color: $dark;
+    }
+    #logo {
+        width: 100%;
+    }
     .navbar__menu.active {
-        background: $black;  
+        background: $dark;  
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index:99;
         height: 50vh;
         font-size:1.6rem;
-    }
-    .navbar__toggle .bar {
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        transition: all 0.3s ease-in-out;
-        background: #fff;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     .navbar__item {
-        width: 100%
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height:80px;
+        text-align: center;
+    }.navbar__links:hover {
+        color: $primary_light;
+        transition: all 0.3s ease;
     }
     .navbar__links {
         text-align: center;
         padding:2rem;
         width:100%;
         display:table;
+        color: $light;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        height: 100%;
     }
     #mobile-menu {
         position:absolute;
         top:20%;
         right: 5%;
         transform: translate(5%, 20%);
-    }
-    .navbar__toggle .bar {
-        display:block;
-        cursor:pointer;
-    }
-    #mobile-menu.is-active .bar:nth-child(2) {
-        opacity: 0;
-
-    }  
-    #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }  
-    #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }  
-    #navbar__logo {
-      opacity: 0;
+        text-align: center;
+        justify-content: center;
     }
 }

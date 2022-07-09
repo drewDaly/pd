@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import "./Masthead.scss";
+
 function Masthead({title, subtitle, dash}) {
   return (
     <div className="masthead">

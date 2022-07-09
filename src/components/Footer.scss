@@ -1,6 +1,6 @@
 @import "./../styles/variables.scss";
 footer {
-    background-color: $black2;
+    background-color: $dark;
     align-items: center;
     padding:35px;
     justify-content: center;
@@ -31,6 +31,6 @@ footer {
     color: white;
 }
 #drew:hover {
-    color:$blue-grey;
+    color:$primary_light;
     transition: all 0.3s ease;
 }

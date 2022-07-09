@@ -1,22 +1,39 @@
 @import "./../styles/variables.scss";
 .masthead {
     display: flex;
-    background-image: url("./../images/entire farm.png");
     color: white;
     justify-content: center;
     align-items: center;
-    vertical-align: middle;
     text-align: center;
-    min-height: 500px;
-    background-position: center;
-    background-size: cover;
 }
 .title {
-    color: $black2;
+    color: $dark2;
+    padding: 15px;
+    font-size: 50px;
+    font-weight:bolder;
 }
 .subtitle {
-    color: $black2;
+    color: $dark2;
+    font-size: 30px;
+    padding:15px
 }
 .dash {
-    color:$black;
+    color:$dark;
+    font-size: 25px;
+
+}
+@media screen and (max-width:960px){
+    .title {
+        color: $dark2;
+        padding: 8px;
+        font-size: 25px;
+    }
+    .subtitle {
+        color: $dark2;
+        font-size: 15px;
+        padding:8px
+    }
+    .dash {
+        font-size: 12px;
+    }
 }

@@ -3,9 +3,9 @@
 .about-container {
     padding: 100px;
     text-align: center;
-    color: $light;
-    background-image: url("./../../../images/combine.png"), radial-gradient(ellipse at center, #aa0c10
-    , $black2 75%);
+    color: $lightest;
+    background-image: url("./../../../images/combine.png"), radial-gradient(ellipse at center, $primary_dark
+    , $dark 90%);
     background-position:center;
     background-blend-mode: overlay;
     background-size:cover;
@@ -40,7 +40,7 @@
     grid-template-columns: auto auto;
     row-gap: 10px;
     column-gap: 150px;
-    background-image: radial-gradient(ellipse at center, $background, $black2 75%);
+    background-image: radial-gradient(ellipse at center, $light, $dark 75%);
 }
 .david__head {
     padding-top: 80px;
@@ -48,7 +48,7 @@
     background-image: url("./../../../images/dave\ carrie.jpg");
     background-position:center;
     background-size:cover;
-    color: $black;
+    color: $dark;
     border-top-left-radius: 400px;
     border-top-right-radius: 400px;
     text-align: left;
@@ -61,7 +61,7 @@
     background-image: url("./../../../images/danny\ mountain.jpg");
     background-size:cover;
     background-position-y: -60px;
-    color: $black;
+    color: $dark;
     border-top-left-radius: 400px;
     border-top-right-radius: 400px;
     text-align: left;
@@ -69,7 +69,7 @@
     font-style: oblique;
 }
 .david__para {
-        background-image: url("./../../../images/sprayer.png"), radial-gradient(ellipse at center, #aa0c10, $black2);
+        background-image: url("./../../../images/sprayer.png"), radial-gradient(ellipse at center, #aa0c10, $dark);
         padding-top: 80px;
         padding-bottom: 80px;
         background-blend-mode:overlay;
@@ -79,7 +79,7 @@
         height:auto;
 }
 .daniel__para {
-    background-image: url("./../../../images/skidloader.png"), radial-gradient(ellipse at center, #aa0c10, $black2);
+    background-image: url("./../../../images/skidloader.png"), radial-gradient(ellipse at center, #aa0c10, $dark);
     padding-top: 80px;
     padding-bottom: 80px;
     background-blend-mode: overlay;

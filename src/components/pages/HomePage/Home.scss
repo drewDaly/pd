@@ -1,89 +1,20 @@
 img {vertical-align: middle;}
-.masthead {
-    background-image: none;
-}
-/* Slideshow container */
-.slideshow-container {
-  max-width: 855px;
-  max-height: 855px;
-  position: relative;
-  margin: auto;
-}
-p {
-    padding: 20px;
-    word-spacing: 2px;
-    line-height: 25px;
-    font-style: normal;
-}
-footer {
-    background-color: $black2;
-    align-items: center;
-    padding:0px;
+
+.mast-wrap {
+    width:100%;
     justify-content: center;
-    position: relative;
+    display: block;
 }
-.container {
-    display: flex;
-    align-items: center;
+.mastContain {
+    box-sizing: border-box;
+}
+.content {
+    position:relative;
+    top: 200px;
     justify-content: center;
+    background-position: 0%;
+    height: 0px;
 }
-.links {
-    list-style: none;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+@media screen and (max-width: 960px) {
+    .content{top: 75px;}
 }
-.link__item {
-    color: white;
-    text-decoration: none;
-}
-#email {
-    color: white;
-    text-decoration: none;
-}
-#email:hover {
-    color:$blue-grey;
-    transition: all 0.3s ease;
-}
-#phone {
-    color:white;
-    text-decoration: none;
-}
-#phone:hover {
-    color: $blue-grey;
-    transition: all 0.3s ease;
-}
-.address {
-    color: white;
-    text-align: center;
-}
-.credits {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-#drew {
-    text-decoration: none;
-    color: white;
-}
-#drew:hover {
-    color:$blue-grey;
-    transition: all 0.3s ease;
-}
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }

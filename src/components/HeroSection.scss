@@ -1,19 +1,23 @@
 @import "./../styles/variables.scss";
 .home__hero-section {
-    background-color: $light_blue;
-    color: $black2;
+    background-color: $primary_light;
+    color: $dark2;
+    box-sizing: border-box;
 }
 .home__hero-section-dark {
-    background-color: $blue-grey;
-    color:white;
+    background-color: $primary_dark;
+    color:$lightest;
+    display: block;
 }
 .home__hero-img {
     max-width: 900px;
-    display: block;
+    height:100%;
 }
 
 .home__hero-row{
     align-items: center;
+    display:block;
+    height:100%;
 }
 
 .home__hero-text-wrapper {
@@ -22,4 +26,5 @@
 .col {
     min-width: 400px;
     align-items: center;
+    display: block;
 }

@@ -22,7 +22,7 @@ p {
 #insta_logo, #email_logo, #phone_logo, #address_logo {
     width:200px;
     padding:20px;
-    background-image: radial-gradient(ellipse at center, $dark_red, $black2);
+    background-image: radial-gradient(ellipse at center, $primary_dark, $dark2);
     border-bottom-left-radius: 25px;
     border-top-left-radius:25px;
 }
@@ -45,19 +45,19 @@ h3 {
     font-style: oblique;
 }
 .insta__info {
-    background-image: url("./../../../images/insta_background.jpg"), radial-gradient(ellipse at center, $dark_red, $black2);
+    background-image: url("./../../../images/insta_background.jpg"), radial-gradient(ellipse at center, $primary_dark, $dark2);
 }
 .phone__info {
-    background-image: url("./../../../images/phone_background.png"), radial-gradient(ellipse at center, $dark_red, $black2);
+    background-image: url("./../../../images/phone_background.png"), radial-gradient(ellipse at center, $primary_dark, $dark2);
 }
 .email__info {
-    background-image: url("./../../../images/email_background.png"), radial-gradient(ellipse at center, $dark_red, $black2);
+    background-image: url("./../../../images/email_background.png"), radial-gradient(ellipse at center, $primary_dark, $dark2);
 }
 .address__info {
-    background-image: url("./../../../images/address2_background.jpg"), radial-gradient(ellipse at center, $dark_red, $black2);
+    background-image: url("./../../../images/address2_background.jpg"), radial-gradient(ellipse at center, $primary_dark, $dark2);
 }
 .address__info2 {
-    background-image: url("./../../../images/address_background.jpg"), radial-gradient(ellipse at center, $dark_red, $black2);
+    background-image: url("./../../../images/address_background.jpg"), radial-gradient(ellipse at center, $primary_dark, $dark2);
 }
 #insta_logo:hover {
     content: url("./../../../images/insta_alt.png");
