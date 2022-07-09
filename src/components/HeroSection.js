@@ -1,7 +1,7 @@
 import React from 'react';
 import "./HeroSection.scss";
 function HeroSection({
-    lightBg, caption, img, alt, imgStart
+    lightBg, title,para, img, alt, imgStart
 }) {
   return (
     <>
@@ -11,7 +11,8 @@ function HeroSection({
             'right'}}>
                 <div className="col">
                     <div className="home__hero-text-wrapper">
-                        <h1 className="captionText">{caption}</h1>
+                        <h1 className="Herotitle">{title}</h1>
+                        <p className='Heropara'>{para}</p>
                     </div>
                 </div>
                 <div className="col">

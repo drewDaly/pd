@@ -6,7 +6,9 @@ import Masthead from '../../Masthead';
 const AboutUs = () => {
   return (
     <>
+    <div className="mast-wrap">
     <Masthead {...AboutMast}/>
+    </div>
     <div class = "about-container" id="about-section">
         <div className="header"> <h1> About Us </h1></div>
         <div className="beef"> 

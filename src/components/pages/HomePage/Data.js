@@ -1,18 +1,20 @@
 import fam from "./../../../images/family corn.jpg"
 import boys from "./../../../images/IMG_1262.jpg"
 export const homeObjOne = {
-    lightBg:true,
-    caption: "Est. 1997",
+    lightBg:false,
+    title: "A Family Business",
+    para: "",
     imgStart: 'back',
     img: fam,
     alt: 'Family'
 }
 export const homeObjTwo = {
-    caption: "Eat Beef", 
+    title: "Eat Beef", 
+    para: "",
     imgStart:'start',
     img: boys,
     alt: "dave and kent",
-    lightBg: false
+    lightBg: true
 }
 export const homeObjMast = {
     title: "Peterson-Daly Farms LLC",
