@@ -27,6 +27,7 @@ img {vertical-align: middle;}
     grid-template-columns: auto auto;
     justify-content:space-evenly;
     text-align: center;
+    box-sizing: border-box;
 }
 .buffer {
     padding: 150px;
@@ -47,5 +48,13 @@ img {vertical-align: middle;}
     .content{top: 75px;}
     .gallery-container {
         grid-template-columns: auto;
+        justify-content: center;
+    }
+    .slideshow-container {
+        min-width: none;
+        box-sizing: border-box;
+    }
+    .show-header {
+        padding:30px;
     }
 }

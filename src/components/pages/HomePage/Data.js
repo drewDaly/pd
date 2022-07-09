@@ -27,8 +27,8 @@ export const homeObjOne = {
     alt: 'Family'
 }
 export const homeObjTwo = {
-    title: "Eat Beef", 
-    para: "",
+    title: "A Generational Legacy", 
+    para: "Kent Peterson began farming in 1974, three years before his eldest daughter Carrie was born. Having previously worked in industry and served in the Marines as a reserve, he was eager to try his hand at farming. Over forty years later, a farming family started by Kent's father, Eugene, is still vibrant. Although David now manages the farm, Kent and his wife Lori still help out around the farm and own their own cow herd.",
     imgStart:'start',
     img: boys,
     alt: "dave and kent",
