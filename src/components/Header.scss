@@ -9,6 +9,9 @@
     position: sticky;
     top:0;
     z-index: 999;
+    .navbar__toggle {
+        display: none;
+    }
 .navbar__container {
     display:flex;
     flex-direction: column;
