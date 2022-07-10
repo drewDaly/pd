@@ -7,7 +7,5 @@ export const AboutData = {
     para2: "Growing up on the farm, Daniel always knew he wanted to follow in the footsteps of his predecessors. Although he was eager to begin farming, he decided to attend Kirkwood Community College in Cedar Rapids, Iowa, to obtain a degree in Ag Business. Upon graduating, Daniel partnered with Burrus Seed, where he acquired a seed dealership. Wanting to continue the family tradition, he continues to work at Peterson-Daly farms, set on building something he and future Dalys can be proud of."
 }
 export const AboutMast = {
-    title: "About Us",
-    subtitle: "A Family In Farming Since 1918",
-    dash: "---"
+    title: "About Us"
 }

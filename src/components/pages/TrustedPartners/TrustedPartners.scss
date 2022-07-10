@@ -1,19 +1,26 @@
 @import "./../../../styles/variables.scss";
 
+.trust-wrap {
+    background-image: url("./../../../images/sunset.jpg");
+    background-position: center;
+    background-size: cover;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    height: 450px;
+}
 #trust-section {
     text-align: center;
     align-items: center;
     color: $light;
     justify-content: center;
-    padding-left:100px;
-    padding-right:100px;
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:75px;
+    padding-bottom: 0;
     display: grid;
-    grid-template-columns: auto auto;
-    row-gap: 75px;
-    column-gap: 75px;
-    background-image: radial-gradient(ellipse at center, $light, $dark2 75%);
+    grid-template-columns: auto auto auto auto;
+    background-color: $dark2;
 }
 .performance-beef {
     background-image: url("./../../../images/pb_back.png"), radial-gradient(ellipse at center, $primary_dark, $dark2);
@@ -54,16 +61,21 @@ h3 {
     width:100px;
 }
 .performance-beef, .pearl-city, .burrus, .dekalb {
-    max-width: 400px;
-    min-height:200px;
-    border-radius: 30px;
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     padding:20px;
+    height: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: $dark2;
 } 
 @media screen and (max-width: 1240px) {
     #trust-section {
         grid-template-columns:auto;
     }
+}
+.bufferTrust {
+    padding: 75px;
+    background-image: linear-gradient($dark2 0%, $dark);
 }

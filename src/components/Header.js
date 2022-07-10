@@ -8,7 +8,10 @@ import logo from "./../images/peterson daly lc (3).jpg"
 function Header() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    const closeMobileMenu = () => { 
+        setClick(false);
+        window.scrollTo(0, 0);
+    }
     const [navbar, setNavbar] = useState("navbar");
     const listenScrollOrSizeEvent = (event) => {
         if (window.scrollY > 50 || window.innerWidth < 960) return setNavbar("navbar2");
@@ -28,14 +31,14 @@ function Header() {
   return (
     <header className={navbar}>
         <div className='navbar__container'>
-            <Link to='/Home' id='navbar__logo'><img src={logo} alt='logo' id='logo'></img>
+            <Link to='/' id='navbar__logo'><img src={logo} alt='logo' id='logo'></img>
           </Link>
             <div className='navbar__toggle' id='mobile-menu' onClick={handleClick}>
                 {click ? <TiTimes size={30}/> : <FaBars size={30}/>}
             </div>
             <ul className={click ? 'navbar__menu active' : 'navbar__menu'} >
                 <li className='navbar__item'>
-                    <Link to='/Home' className='navbar__links' onClick={closeMobileMenu}>Home
+                    <Link to='/' className='navbar__links' onClick={closeMobileMenu}>Home
                     </Link>
                 </li>
                 <li className='navbar__item'>

@@ -7,9 +7,10 @@
 .home__hero-section-dark {
     background-color: $dark2;
     color:$light;
+    box-sizing: border-box;
 }
 .home__hero-img {
-    max-width: 900px;
+    max-width: 950px;
     display: block;
 }
 
@@ -20,13 +21,15 @@
 .home__hero-text-wrapper {
     text-align: center;
     max-width: 800px;
+    box-sizing: border-box;
     display: block;
 }
 .Heropara {
     line-height: 40px;
+    font-weight: 400;
 }
 .Herotitle {
-    font-size: 60px;
+    font-size: 55px;
     padding-bottom: 30px;
 }
 .col {
@@ -36,6 +39,9 @@
 @media screen and (max-width: 960px) {
     .col {
         min-width: 0px;
+    }
+    .Herotitle {
+        font-size: 30px;
     }
     
 }

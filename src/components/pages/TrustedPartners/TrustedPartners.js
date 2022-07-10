@@ -5,7 +5,9 @@ import Masthead from '../../Masthead';
 const TrustedPartners = () => {
   return (
     <>
+    <div className="trust-wrap">
     <Masthead {...TrustMast} />
+    </div>
     <div class="trust-container" id="trust-section">
         <div class="performance-beef">
             <div class="logo" id="pb__logo">
@@ -56,6 +58,7 @@ const TrustedPartners = () => {
             </div>
         </div>
     </div>
+    <div className="bufferTrust"></div>
     </>
   )
 }
