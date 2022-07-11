@@ -3,7 +3,11 @@ import fam from "./../../../images/family corn.jpg"
 import boys from "./../../../images/IMG_1262.jpg"
 // BEEF GALLERY
 import calf from "./../../../images/calf.png"
-import cowcalf from "./../../../images/cowcalf.png"
+import one from "./../../../images/IMG_2542.JPG"
+import four from "./../../../images/IMG_2547.JPG"
+import five from "./../../../images/IMG_2548.JPG"
+import six from "./../../../images/IMG_2549.JPG"
+import seven from "./../../../images/IMG_2552.JPG"
 import emmacalf from "./../../../images/emma calf.jpg"
 import hollycalf from "./../../../images/holly calf (2).jpg"
 import drewcalf from "./../../../images/November 2011 001 (1).jpg"
@@ -12,7 +16,6 @@ import whitecow from "./../../../images/white cow.JPG"
 import stuff from "./../../../images/IMG_2504.jpg"
 import stuff2 from "./../../../images/IMG_2519.jpg"
 import fill from "./../../../images/fill.jpg"
-import cab from "./../../../images/cab.jpg"
 import harvest from "./../../../images/harvest.jpg"
 import loading from "./../../../images/loading.jpg"
 import sprayer from "./../../../images/sprayer.jpg"
@@ -42,10 +45,10 @@ export const homeObjMast = {
     dash: "— Pecatonica, IL | Est. 1997 —"
 }
 export const beefImages = [
-        calf, cowcalf, hollycalf,emmacalf,drewcalf,whitecow
+        calf, hollycalf,emmacalf,drewcalf,whitecow, one, four, five, six, seven
 ];
 export const grainImages = [
-    harvest, sprayerSky, fill, waterTank, sprayer, loading, cab, stuff, stuff2, 
+    harvest, sprayerSky, fill, waterTank, sprayer, loading,  stuff, stuff2, 
 ];
 export const properties = {
     prevArrow: <button style={{background: 'none', border: '0px'}}><GrPrevious size={25}/></button>,

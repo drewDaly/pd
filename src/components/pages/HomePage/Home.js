@@ -31,6 +31,10 @@ const Home = () => {
               <div className='each-fade'><img src={beefImages[3]} alt="3" style={{width:'100%'}}/></div>
               <div className='each-fade'><img src={beefImages[4]} alt="4" style={{width:'100%'}}/></div>
               <div className='each-fade'><img src={beefImages[5]} alt="5" style={{width:'100%'}}/></div>
+              <div className='each-fade'><img src={beefImages[6]} alt="5" style={{width:'100%'}}/></div>
+              <div className='each-fade'><img src={beefImages[7]} alt="5" style={{width:'100%'}}/></div>
+              <div className='each-fade'><img src={beefImages[8]} alt="5" style={{width:'100%'}}/></div>
+              <div className='each-fade'><img src={beefImages[9]} alt="5" style={{width:'100%'}}/></div>
           </Fade>
         </div>
       </div>
@@ -46,12 +50,12 @@ const Home = () => {
               <div className='each-fade'><img src={grainImages[5]} alt="5" style={{width:'100%'}}/></div>
               <div className='each-fade'><img src={grainImages[6]} alt="5" style={{width:'100%'}}/></div>
               <div className='each-fade'><img src={grainImages[7]} alt="5" style={{width:'100%'}}/></div>
-              <div className='each-fade'><img src={grainImages[8]} alt="5" style={{width:'100%'}}/></div>
           </Fade>
         </div>
       </div>
     </div>
     </div>
+    <div className="buffer-home"></div>
     </>
   )
 }

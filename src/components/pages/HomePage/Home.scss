@@ -35,8 +35,12 @@ img {vertical-align: middle;}
     box-sizing: border-box;
 }
 .buffer {
-    padding: 150px;
-    background-image: linear-gradient( $light 0% , $dark2 40%);
+    padding: 75px;
+    background-image: linear-gradient( $light 0% , $dark2 50%);
+}
+.buffer-home {
+    padding:75px;
+    background-image: linear-gradient($dark2 0%, $dark);
 }
 .gallery {
     text-align: center;

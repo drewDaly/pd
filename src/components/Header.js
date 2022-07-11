@@ -14,8 +14,8 @@ function Header() {
     }
     const [navbar, setNavbar] = useState("navbar");
     const listenScrollOrSizeEvent = (event) => {
-        if (window.scrollY > 50 || window.innerWidth < 960) return setNavbar("navbar2");
-        else return setNavbar("navbar");
+        if (window.scrollY === 0 && window.innerWidth >= 960) return setNavbar('navbar');
+        else return setNavbar('navbar2');
     }
     useEffect(() => {
         window.addEventListener('scroll', listenScrollOrSizeEvent);
