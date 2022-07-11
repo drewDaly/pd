@@ -17,8 +17,6 @@ const TrustedPartners = () => {
             </div>
             <div class="para" id="pb__para">
                 <h3>Performance Beef</h3>
-                <h3>--</h3>
-                <p>{PbData.pbPara}</p>
             </div>
         </div>
         <div class="pearl-city">
@@ -29,8 +27,6 @@ const TrustedPartners = () => {
             </div>
             <div class="para" id="pce__para">
                 <h3>Pearl City Elevator</h3>
-                <h3>--</h3>
-                <p>{PceData.pcePara}</p>
             </div>
         </div>
         <div class="burrus">
@@ -41,8 +37,7 @@ const TrustedPartners = () => {
             </div>
             <div class="para" id="burrus__para">
                 <h3>Burrus Seed</h3>
-                <h3>--</h3>
-                <p>{BurrusData.burrusPara}</p>
+                
             </div>
         </div>
         <div class="dekalb">
@@ -53,8 +48,7 @@ const TrustedPartners = () => {
             </div>
             <div class="para" id="dekalb__para">
                 <h3>Dekalb Feeds</h3>
-                <h3>--</h3>
-                <p>{DekalbData.dekalbPara}</p>
+                
             </div>
         </div>
     </div>
