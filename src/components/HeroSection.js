@@ -7,7 +7,7 @@ function HeroSection({
     <>
     <div className={lightBg ? "home__hero-section" : "home__hero-section-dark"}>
         <div className="hero-container">
-            <div className='home__hero-row' style={{display:'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row', justifyContent: imgStart==='start' ? 'left' : 
+            <div className='home__hero-row' style={{display:'flex', justifyContent: imgStart==='start' ? 'left' : 
             'right'}}>
                 <div className="col">
                     <div className="home__hero-text-wrapper">
@@ -17,7 +17,7 @@ function HeroSection({
                 </div>
                 <div className="col">
                     <div className="home__hero-image-wrapper">
-                        <img src={img} alt={alt} style={{width:"100%"}} className="home__hero-img"/>
+                        <img src={img} alt={alt} style={{width: '100%'}} className="home__hero-img"/>
                     </div>
                 </div>
             </div>
