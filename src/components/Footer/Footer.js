@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "./../images/peterson daly lc (3).jpg"
+import logo from "./../../images/peterson daly lc (3).jpg"
 import {BsInstagram} from "react-icons/bs"
 import "./Footer.scss";
 const Footer = () => {

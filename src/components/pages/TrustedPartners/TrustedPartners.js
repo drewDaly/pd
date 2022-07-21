@@ -1,7 +1,7 @@
 import React from 'react'
 import "./TrustedPartners.scss"
 import { PbData, PceData, BurrusData, DekalbData, TrustMast } from './Data';
-import Masthead from '../../Masthead';
+import Masthead from '../../Masthead/Masthead';
 const TrustedPartners = () => {
   return (
     <>

@@ -4,7 +4,7 @@ import {AiOutlineMail} from "react-icons/ai"
 import {SiGooglestreetview} from "react-icons/si"
 import {ContactMast} from "./Data"
 import "./ContactUs.scss"
-import Masthead from '../../Masthead'
+import Masthead from '../../Masthead/Masthead'
 const ContactUs = () => {
   return (
     <> <div className="contact-wrap">

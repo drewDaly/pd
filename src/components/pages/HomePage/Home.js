@@ -1,8 +1,8 @@
 import 'react-slideshow-image/dist/styles.css';
-import HeroSection from '../../HeroSection';
+import HeroSection from '../../HeroSection/HeroSection';
 import {homeObjOne, homeObjTwo, homeObjMast, beefImages, grainImages, properties} from "./Data";
 import {Fade} from "react-slideshow-image";
-import Masthead from '../../Masthead';
+import Masthead from '../../Masthead/Masthead';
 import background from "./../../../images/Video P&D.mp4";
 import "./Home.scss";
 

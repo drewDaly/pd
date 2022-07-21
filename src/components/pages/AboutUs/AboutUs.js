@@ -1,7 +1,7 @@
 import React from 'react'
 import {AboutData, AboutMast} from "./Data";
 import "./AboutUs.scss";
-import Masthead from '../../Masthead';
+import Masthead from '../../Masthead/Masthead';
 
 const AboutUs = () => {
   return (
