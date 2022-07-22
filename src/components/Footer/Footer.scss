@@ -18,7 +18,8 @@ footer {
 }
 .column-one {
     border: 0px;
-    border-right: 7px;
+    border-right: 3px;
+    border-radius: 7px;
     border-style: solid;
     border-color: $light;
 }
@@ -27,6 +28,11 @@ footer {
 }
 .column-two {
     padding-left: 100px;
+    border:0px;
+    border-left:3px;
+    border-radius:7px;
+    border-style: solid;
+    border-color: $light;
 }
 .logo-wrap {
     max-width: 150px;

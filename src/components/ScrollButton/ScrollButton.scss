@@ -1,13 +1,16 @@
 @import "./../../styles/variables.scss";
 .scrollButton {
-    position:sticky;
-    width:100%;
-    left: 25%;
+    position:fixed;
+    left: 2%;
     bottom: 50px;
-    height: 20px;
+    border-radius: 100%;
     font-size: 3rem;
     z-index: 1;
     cursor: pointer;
     background-color: transparent;
-    color: $light;
+    color: grey;
+}
+.scrollButton:hover {
+    color: $dark;
+    background-color: $primary_dark;
 }

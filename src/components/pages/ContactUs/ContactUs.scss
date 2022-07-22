@@ -26,7 +26,7 @@
     align-items: center;
     text-align: center;
 }
-.link, .text, .subtext{
+.text, .subtext{
     color: $dark;
 }
 .bufferContact {
@@ -44,4 +44,16 @@
     background-repeat: no-repeat;
     background-position-y:bottom;
     background-image: url("./../../../images/IMG_2639.jpg");
+}
+.insta-icon, .phone-icon, .email-icon, .address-icon {
+    color:$dark;
+}
+.insta-icon:hover {
+    color:fuchsia;
+}
+.phone-icon:hover, .email-icon:hover {
+    color: darkblue;
+}
+.address-icon:hover {
+    color:darkolivegreen;
 }

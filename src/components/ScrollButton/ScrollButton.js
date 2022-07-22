@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {BsArrowUpCircleFill} from "react-icons/bs"
+import "./ScrollButton.scss"
 
 function ScrollButton() {
     const [visible, setVisible] = useState(false)
@@ -22,7 +23,7 @@ function ScrollButton() {
     <>
         <>
             <BsArrowUpCircleFill className='scrollButton' onClick={scrollTop}
-            style={{display : visible ? 'inline' : 'none'}} />
+            style={{visibility : visible ? 'visible' : 'hidden'}} size={35}/>
         </>
     </>
   )

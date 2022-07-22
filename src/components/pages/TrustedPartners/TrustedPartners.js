@@ -9,7 +9,7 @@ const TrustedPartners = () => {
     <Masthead {...TrustMast} />
     </div>
     <div class="trust-container" id="trust-section">
-        <div class="performance-beef">
+        <div class="performance-beef" id="trust-box">
             <div class="logo" id="pb__logo">
                 <a href="https://www.performancelivestockanalytics.com" target="_blank" rel="noopener noreferrer">
                     <img src={PbData.pb} alt="pb_logo" id="pb_logo"></img>
@@ -19,7 +19,7 @@ const TrustedPartners = () => {
                 <h3>Performance Beef</h3>
             </div>
         </div>
-        <div class="pearl-city">
+        <div class="pearl-city" id="trust-box">
             <div class="logo" id="pce__logo">
                 <a href="https://pce-coops.com" target="_blank" rel="noopener noreferrer">
                     <img src={PceData.pce} alt="pce_logo" id="pce_logo"></img>
@@ -29,7 +29,7 @@ const TrustedPartners = () => {
                 <h3>Pearl City Elevator</h3>
             </div>
         </div>
-        <div class="burrus">
+        <div class="burrus" id="trust-box">
             <div class="logo" id="burrus__logo">
                 <a href="https://burrusseed.com" target="_blank" rel="noopener noreferrer">
                     <img src={BurrusData.burrus} alt="burrus_logo" id="burrus_logo"></img>
@@ -40,7 +40,7 @@ const TrustedPartners = () => {
                 
             </div>
         </div>
-        <div class="dekalb">
+        <div class="dekalb" id="trust-box">
             <div class="logo" id="dekalb__logo">
                 <a href="https://hueberfeed.com/dekalb-feeds" target="_blank" rel="noopener noreferrer">
                     <img src={DekalbData.dekalb} alt="dekalb_logo" id="dekalb_logo"></img>

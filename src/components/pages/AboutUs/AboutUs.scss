@@ -69,9 +69,9 @@
 .daniel__head {
     padding-top: 80px;
     padding-bottom:80px;
-    background-image: url("./../../../images/danny\ mountain.jpg");
+    background-image: url("./../../../images/danny_profile.png");
     background-size:cover;
-    background-position-y: -60px;
+    background-position-y: 15%;
     color: $dark;
     border-top-left-radius: 400px;
     border-top-right-radius: 400px;
@@ -87,7 +87,6 @@
         background-position:center;
         background-size:cover;
         color: $light;
-        height:auto;
 }
 .daniel__para {
     background-image: url("./../../../images/skidloader.png"), radial-gradient(ellipse at center, #aa0c10, $dark);
@@ -97,6 +96,9 @@
     background-position:center;
     background-size:cover;
     color: $light;
+}
+#people__para {
+    height: 500px;
 }
 p {
     padding:20px;
@@ -127,12 +129,15 @@ p {
     }
     .daniel__head {
         order:4;
-        background-position: 0 50%;
+        background-position: 0 0;
     }
     .daniel__contact {
         order:6;
     }
     .david__head {
         background-position: 0 30%;
+    }
+    #people__para {
+        height:auto;
     }
 }

@@ -23,15 +23,15 @@ const AboutUs = () => {
     <div className="people-container" id="people">
         <div className="person"> 
         <div className="david__head">
-            <h2 className='person__header'>{AboutData.name1}</h2>
+            <h1 className='person__header'>{AboutData.name1}</h1>
         </div>
-            <p className='david__para'>{AboutData.para1}</p>
+            <p className='david__para' id="people__para">{AboutData.para1}</p>
     </div>
     <div className="person">
         <div className="daniel__head">
-            <h2 className='person__header'>{AboutData.name2}</h2>
+            <h1 className='person__header'>{AboutData.name2}</h1>
         </div>
-            <p className='daniel__para'>{AboutData.para2}</p>
+            <p className='daniel__para' id="people__para">{AboutData.para2}</p>
     </div>
     </div>
     </>

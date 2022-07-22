@@ -4,10 +4,10 @@ import "./Header.scss";
 import logo from "./../../images/peterson daly lc (3).jpg"
 
 function Header() {
-    const [navbar, setNavbar] = useState(true);
+    const [navbar, setNavbar] = useState(false);
     const listenScrollOrSizeEvent = (event) => {
-        if (window.scrollY < 75) return setNavbar(false);
-        else return setNavbar(true);
+        if (window.scrollY > 30) return setNavbar(true);
+        else return setNavbar(false);
     }
     useEffect(() => {
         window.addEventListener('scroll', listenScrollOrSizeEvent);
