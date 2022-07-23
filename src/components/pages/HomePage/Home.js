@@ -35,7 +35,7 @@ const Home = () => {
               <div className='each-fade'><img src={beefImages[7]} alt="5" style={{width:'100%'}}/></div>
               <div className='each-fade'><img src={beefImages[8]} alt="5" style={{width:'100%'}}/></div>
               <div className='each-fade'><img src={beefImages[9]} alt="5" style={{width:'100%'}}/></div>
-              <div className='each-fade'><img src={beefImages[10]} alt="5" style={{width:'100%'}}/></div>
+              <div className='each-fade'><img src={beefImages[10]} alt="10" style={{width:'100%'}}/></div>
           </Fade>
         </div>
       </div>
