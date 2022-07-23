@@ -11,6 +11,7 @@ import seven from "./../../../images/IMG_2552.JPG"
 import emmacalf from "./../../../images/emma calf.jpg"
 import hollycalf from "./../../../images/holly calf (2).jpg"
 import drewcalf from "./../../../images/November 2011 001 (1).jpg"
+import gma_gpa from "./../../../images/gma+gpa.jpg"
 import whitecow from "./../../../images/white cow.JPG"
 // GRAIN GALLERY
 import stuff from "./../../../images/IMG_2504.jpg"
